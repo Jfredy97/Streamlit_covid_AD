@@ -167,7 +167,7 @@ with tab5:
     fig, ax = plt.subplots()
     ax.pie(df_contagios_sexo, labels=df_contagios_sexo.index, autopct='%1.1f%%')
     with st.container(border=True):
-        st.header('Contagios por Sexo')
+        st.header('Contagios por sexo')
         st.pyplot(fig) 
 
 with tab6:
