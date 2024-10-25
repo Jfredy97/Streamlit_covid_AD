@@ -6,12 +6,12 @@ from datetime import datetime
 
 #@st.cache_data
 def cargar_contagios():
-    data = pd.read_excel('C:\\Users\\Fredy Giraldo\\Desktop\\ANALISIS DE DATOS\\STREAMLIT\\streamlitcovid.xlsx', sheet_name='contagios')
+    data = pd.read_excel('streamlitcovid.xlsx', sheet_name='contagios')
     return data
 
 #@st.cache_data
 def cargar_departamentos():
-    data = pd.read_excel('C:\\Users\\Fredy Giraldo\\Desktop\\ANALISIS DE DATOS\\STREAMLIT\\streamlitcovid.xlsx', sheet_name='departamento')
+    data = pd.read_excel('streamlitcovid.xlsx', sheet_name='departamento')
     return data
 
 df_contagios = cargar_contagios()
